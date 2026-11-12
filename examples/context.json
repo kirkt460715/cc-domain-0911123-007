@@ -1,0 +1,344 @@
+{
+  "synthetic": true,
+  "records": [
+    {
+      "specimen": "s0",
+      "repeat": 0,
+      "reference": "5.0",
+      "portable": "7.0",
+      "at": "2026-11-11T00:00:00Z"
+    },
+    {
+      "specimen": "s0",
+      "repeat": 1,
+      "reference": "5.1",
+      "portable": "7.15",
+      "at": "2026-11-11T00:00:01Z"
+    },
+    {
+      "specimen": "s1",
+      "repeat": 0,
+      "reference": "7.0",
+      "portable": "9.1",
+      "at": "2026-11-11T00:01:00Z"
+    },
+    {
+      "specimen": "s1",
+      "repeat": 1,
+      "reference": "7.1",
+      "portable": "9.25",
+      "at": "2026-11-11T00:01:01Z"
+    },
+    {
+      "specimen": "s2",
+      "repeat": 0,
+      "reference": "9.0",
+      "portable": "11.2",
+      "at": "2026-11-11T00:02:00Z"
+    },
+    {
+      "specimen": "s2",
+      "repeat": 1,
+      "reference": "9.1",
+      "portable": "11.35",
+      "at": "2026-11-11T00:02:01Z"
+    },
+    {
+      "specimen": "s3",
+      "repeat": 0,
+      "reference": "11.0",
+      "portable": "13.3",
+      "at": "2026-11-11T00:03:00Z"
+    },
+    {
+      "specimen": "s3",
+      "repeat": 1,
+      "reference": "11.1",
+      "portable": "13.450000000000001",
+      "at": "2026-11-11T00:03:01Z"
+    },
+    {
+      "specimen": "s4",
+      "repeat": 0,
+      "reference": "13.0",
+      "portable": "15.4",
+      "at": "2026-11-11T00:04:00Z"
+    },
+    {
+      "specimen": "s4",
+      "repeat": 1,
+      "reference": "13.1",
+      "portable": "15.55",
+      "at": "2026-11-11T00:04:01Z"
+    },
+    {
+      "specimen": "s5",
+      "repeat": 0,
+      "reference": "15.0",
+      "portable": "17.5",
+      "at": "2026-11-11T00:05:00Z"
+    },
+    {
+      "specimen": "s5",
+      "repeat": 1,
+      "reference": "15.1",
+      "portable": "17.65",
+      "at": "2026-11-11T00:05:01Z"
+    },
+    {
+      "specimen": "s6",
+      "repeat": 0,
+      "reference": "17.0",
+      "portable": "19.6",
+      "at": "2026-11-11T00:06:00Z"
+    },
+    {
+      "specimen": "s6",
+      "repeat": 1,
+      "reference": "17.1",
+      "portable": "19.75",
+      "at": "2026-11-11T00:06:01Z"
+    },
+    {
+      "specimen": "s7",
+      "repeat": 0,
+      "reference": "19.0",
+      "portable": "21.700000000000003",
+      "at": "2026-11-11T00:07:00Z"
+    },
+    {
+      "specimen": "s7",
+      "repeat": 1,
+      "reference": "19.1",
+      "portable": "21.85",
+      "at": "2026-11-11T00:07:01Z"
+    },
+    {
+      "specimen": "s8",
+      "repeat": 0,
+      "reference": "21.0",
+      "portable": "23.8",
+      "at": "2026-11-11T00:08:00Z"
+    },
+    {
+      "specimen": "s8",
+      "repeat": 1,
+      "reference": "21.1",
+      "portable": "23.95",
+      "at": "2026-11-11T00:08:01Z"
+    },
+    {
+      "specimen": "s9",
+      "repeat": 0,
+      "reference": "23.0",
+      "portable": "25.900000000000002",
+      "at": "2026-11-11T00:09:00Z"
+    },
+    {
+      "specimen": "s9",
+      "repeat": 1,
+      "reference": "23.1",
+      "portable": "26.05",
+      "at": "2026-11-11T00:09:01Z"
+    },
+    {
+      "specimen": "s10",
+      "repeat": 0,
+      "reference": "25.0",
+      "portable": "28.0",
+      "at": "2026-11-11T00:10:00Z"
+    },
+    {
+      "specimen": "s10",
+      "repeat": 1,
+      "reference": "25.1",
+      "portable": "28.15",
+      "at": "2026-11-11T00:10:01Z"
+    },
+    {
+      "specimen": "s11",
+      "repeat": 0,
+      "reference": "27.0",
+      "portable": "30.1",
+      "at": "2026-11-11T00:11:00Z"
+    },
+    {
+      "specimen": "s11",
+      "repeat": 1,
+      "reference": "27.1",
+      "portable": "30.25",
+      "at": "2026-11-11T00:11:01Z"
+    },
+    {
+      "specimen": "s12",
+      "repeat": 0,
+      "reference": "29.0",
+      "portable": "32.2",
+      "at": "2026-11-11T00:12:00Z"
+    },
+    {
+      "specimen": "s12",
+      "repeat": 1,
+      "reference": "29.1",
+      "portable": "32.35",
+      "at": "2026-11-11T00:12:01Z"
+    },
+    {
+      "specimen": "s13",
+      "repeat": 0,
+      "reference": "31.0",
+      "portable": "34.3",
+      "at": "2026-11-11T00:13:00Z"
+    },
+    {
+      "specimen": "s13",
+      "repeat": 1,
+      "reference": "31.1",
+      "portable": "34.449999999999996",
+      "at": "2026-11-11T00:13:01Z"
+    },
+    {
+      "specimen": "s14",
+      "repeat": 0,
+      "reference": "33.0",
+      "portable": "36.400000000000006",
+      "at": "2026-11-11T00:14:00Z"
+    },
+    {
+      "specimen": "s14",
+      "repeat": 1,
+      "reference": "33.1",
+      "portable": "36.550000000000004",
+      "at": "2026-11-11T00:14:01Z"
+    },
+    {
+      "specimen": "s15",
+      "repeat": 0,
+      "reference": "35.0",
+      "portable": "38.5",
+      "at": "2026-11-11T00:15:00Z"
+    },
+    {
+      "specimen": "s15",
+      "repeat": 1,
+      "reference": "35.1",
+      "portable": "38.65",
+      "at": "2026-11-11T00:15:01Z"
+    },
+    {
+      "specimen": "s16",
+      "repeat": 0,
+      "reference": "37.0",
+      "portable": "40.6",
+      "at": "2026-11-11T00:16:00Z"
+    },
+    {
+      "specimen": "s16",
+      "repeat": 1,
+      "reference": "37.1",
+      "portable": "40.75",
+      "at": "2026-11-11T00:16:01Z"
+    },
+    {
+      "specimen": "s17",
+      "repeat": 0,
+      "reference": "39.0",
+      "portable": "42.7",
+      "at": "2026-11-11T00:17:00Z"
+    },
+    {
+      "specimen": "s17",
+      "repeat": 1,
+      "reference": "39.1",
+      "portable": "42.85",
+      "at": "2026-11-11T00:17:01Z"
+    },
+    {
+      "specimen": "s18",
+      "repeat": 0,
+      "reference": "41.0",
+      "portable": "44.800000000000004",
+      "at": "2026-11-11T00:18:00Z"
+    },
+    {
+      "specimen": "s18",
+      "repeat": 1,
+      "reference": "41.1",
+      "portable": "44.95",
+      "at": "2026-11-11T00:18:01Z"
+    },
+    {
+      "specimen": "s19",
+      "repeat": 0,
+      "reference": "43.0",
+      "portable": "46.9",
+      "at": "2026-11-11T00:19:00Z"
+    },
+    {
+      "specimen": "s19",
+      "repeat": 1,
+      "reference": "43.1",
+      "portable": "47.05",
+      "at": "2026-11-11T00:19:01Z"
+    },
+    {
+      "specimen": "s20",
+      "repeat": 0,
+      "reference": "45.0",
+      "portable": "49.0",
+      "at": "2026-11-11T00:20:00Z"
+    },
+    {
+      "specimen": "s20",
+      "repeat": 1,
+      "reference": "45.1",
+      "portable": "49.15",
+      "at": "2026-11-11T00:20:01Z"
+    },
+    {
+      "specimen": "s21",
+      "repeat": 0,
+      "reference": "47.0",
+      "portable": "51.1",
+      "at": "2026-11-11T00:21:00Z"
+    },
+    {
+      "specimen": "s21",
+      "repeat": 1,
+      "reference": "47.1",
+      "portable": "51.25",
+      "at": "2026-11-11T00:21:01Z"
+    },
+    {
+      "specimen": "s22",
+      "repeat": 0,
+      "reference": "49.0",
+      "portable": "53.2",
+      "at": "2026-11-11T00:22:00Z"
+    },
+    {
+      "specimen": "s22",
+      "repeat": 1,
+      "reference": "49.1",
+      "portable": "53.35",
+      "at": "2026-11-11T00:22:01Z"
+    },
+    {
+      "specimen": "s23",
+      "repeat": 0,
+      "reference": "51.0",
+      "portable": "55.300000000000004",
+      "at": "2026-11-11T00:23:00Z"
+    },
+    {
+      "specimen": "s23",
+      "repeat": 1,
+      "reference": "51.1",
+      "portable": "55.45",
+      "at": "2026-11-11T00:23:01Z"
+    }
+  ],
+  "unit": "kPa",
+  "variance_ratio": "1.5",
+  "allowed_difference": "3"
+}
