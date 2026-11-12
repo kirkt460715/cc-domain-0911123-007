@@ -166,6 +166,31 @@ def dispatch(app, request):
         from .processing.crosscheck import PairedChannels
 
         return PairedChannels(app.reports, app.catalog.registry()).compare(**options)
+    if action == "agreement_run":
+        return app.agreement.run(options["specification"])
+    if action == "agreement_get":
+        return app.agreement.get(options["id"])
+    if action == "agreement_list":
+        return {"studies": app.agreement.list()}
+    if action == "agreement_compare":
+        return app.agreement.compare_versions(options["left"], options["right"])
+    if action == "agreement_export":
+        from .output.snapshots import atomic_write
+
+        kind = options.get("kind", "json")
+        if kind == "json":
+            payload = app.agreement_exports.json_bytes(options["id"])
+        elif kind == "pairs":
+            payload = app.agreement_exports.pair_rows(options["id"]).encode("utf-8")
+        elif kind == "exclusions":
+            payload = app.agreement_exports.exclusion_rows(options["id"]).encode(
+                "utf-8"
+            )
+        elif kind == "summary":
+            payload = app.agreement_exports.summary_rows(options["id"]).encode("utf-8")
+        else:
+            raise InputError("unknown agreement export kind", field=kind)
+        return atomic_write(options["destination"], payload)
     raise InputError("unknown action", field=action)
 
 

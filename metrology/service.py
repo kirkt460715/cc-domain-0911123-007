@@ -9,6 +9,8 @@ from .inspection import Inspector
 from .processing.campaigns import Campaigns
 from .processing.replay_plan import ReplayPlanner
 from .output.bundles import EvidenceBundles
+from .agreement.studies import AgreementStudies
+from .agreement.export import AgreementExports
 
 
 class Service:
@@ -23,6 +25,8 @@ class Service:
         self.campaigns = Campaigns(self.database, self.catalog, self.reports)
         self.replay_plans = ReplayPlanner(self.database, self.pipeline, self.catalog)
         self.bundles = EvidenceBundles(self.snapshots, self.campaigns)
+        self.agreement = AgreementStudies(self.database, self.reports, self.catalog)
+        self.agreement_exports = AgreementExports(self.agreement)
         self.inspector = Inspector(self.database)
 
     def close(self):

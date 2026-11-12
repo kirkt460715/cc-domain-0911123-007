@@ -68,6 +68,18 @@ class Inspector:
         for row in self.db.rows("SELECT * FROM snapshots ORDER BY id"):
             if digest(strict_json(row["payload"])) != row["fingerprint"]:
                 errors.append({"id": row["id"], "code": "snapshot_fingerprint"})
+        for row in self.db.rows(
+            "SELECT * FROM agreement_studies ORDER BY id"
+        ):
+            payload = strict_json(row["result"])
+            if digest(payload) != row["fingerprint"]:
+                errors.append(
+                    {"id": row["id"], "code": "agreement_study_fingerprint"}
+                )
+            if strict_json(row["specification"]) != payload["specification"]:
+                errors.append(
+                    {"id": row["id"], "code": "agreement_study_specification"}
+                )
         for row in self.db.rows("SELECT * FROM sources ORDER BY id"):
             maximum = self.db.one(
                 "SELECT MAX(sequence) AS n FROM observations WHERE source=?",
@@ -130,6 +142,7 @@ class Inspector:
             "replays": ("id",),
             "windows": ("id",),
             "snapshots": ("id",),
+            "agreement_studies": ("id",),
         }
         for table, keys in tables.items():
             rows = self.db.rows(
